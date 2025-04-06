@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 6px;
+  border: 2px solid #000;
+  width: 240px;
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 18px;
+  }
+
+  .button {
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
